@@ -53,7 +53,7 @@ public class WhileLoop1 {
             System.out.println("Do you wanna continue y/n?");
             indicator = scanner.nextLine();
         }
-        System.out.println(" positives "+pcounter+ " negatives"+ncounter+" zeros "+zcounter);
+        System.out.println("You entered "+pcounter+ " positive number "+ncounter+" negative number "+zcounter+" zero");
 
     }
 }
