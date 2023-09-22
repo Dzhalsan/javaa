@@ -13,6 +13,8 @@ public class Loops {
             System.out.println("It is digit = "+Character.isDigit(word.charAt(i)));
             System.out.println();
             i++;
+
+
         }
         }
     }
