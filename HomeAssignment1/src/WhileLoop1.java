@@ -39,21 +39,37 @@ public class WhileLoop1 {
 
         // task 4
 
-        String indicator = "y";
-        int pcounter = 0;
-        int ncounter = 0;
-        int zcounter = 0;
+//        String indicator = "y";
+//        int pcounter = 0;
+//        int ncounter = 0;
+//        int zcounter = 0;
+//
+//        while (indicator.equalsIgnoreCase("y")) {
+//            int n = scanner.nextInt();
+//            scanner.nextLine();
+//            if (n>0) pcounter++;
+//            else if (n<0) ncounter++;
+//            else zcounter++;
+//            System.out.println("Do you wanna continue y/n?");
+//            indicator = scanner.nextLine();
+//        }
+//        System.out.println("You entered "+pcounter+ " positive number "+ncounter+" negative number "+zcounter+" zero");
 
-        while (indicator.equalsIgnoreCase("y")) {
-            int n = scanner.nextInt();
-            scanner.nextLine();
-            if (n>0) pcounter++;
-            else if (n<0) ncounter++;
-            else zcounter++;
-            System.out.println("Do you wanna continue y/n?");
-            indicator = scanner.nextLine();
+        // task 5
+        int counter;
+        String word = "";
+        do
+        {
+            System.out.print("Enter a string: ");
+            counter = 0;
+            word = scanner.nextLine();
+            for (int i = 0 ; i<word.length(); i++)
+            if (Character.isDigit(word.charAt(i))) counter++;
+            System.out.println(counter + " digits");
+
         }
-        System.out.println("You entered "+pcounter+ " positive number "+ncounter+" negative number "+zcounter+" zero");
+        while (counter!=3) ;
+        System.out.println("You entered a string with " + counter + " digits");
 
     }
 }
