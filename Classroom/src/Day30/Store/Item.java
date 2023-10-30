@@ -1,0 +1,28 @@
+package Day30.Store;
+
+public class Item {
+    int id;
+    String name;
+    double price;
+    int quantity;
+
+    public Item (String name, double price, int quantity) {
+
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+
+    }
+
+    public void  displayItem() {
+
+        System.out.println("----------------------");
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Price: " + price + "$");
+        System.out.println("Quantity: " + quantity);
+
+    }
+
+
+}

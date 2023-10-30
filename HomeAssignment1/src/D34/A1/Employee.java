@@ -1,0 +1,17 @@
+package D34.A1;
+
+public class Employee {
+
+    String name;
+    int employeeID;
+    int salary;
+
+    public Employee (String name, int salary) {
+
+        this.name = name;
+        this.salary = salary;
+
+    }
+
+}
+

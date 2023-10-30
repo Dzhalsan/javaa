@@ -11,7 +11,7 @@ public class ScannerHomework {
 //
 //        System.out.println("Sum of two integers: "+(n1+n2));
 //        System.out.println("Difference of two integers: "+(n1-n2));
-//        System.out.println("Product of two integers: "+(n1*n2));
+//        System.out.println("D24A1.Product of two integers: "+(n1*n2));
 //        System.out.println("Average of two integers: "+((double)(n1+n2)/2));
 
 //        Task 2.
